@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prueba    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Gabriel Figueroa</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Gabriel Figueroa - Home Page">
+    <meta name="author" content="Gabriel Figueroa">
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
 </head>
+
 <body>
-    
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Gabriel Figueroa</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/sgabriel-figueroa/">LinkedIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng&id=p37#p37">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card profile-card">
+            <h2 class="card-title">About Me</h2>
+            <p id="profile-p">My name is Gabriel Figueroa. I am from Argentina but I am currently living in Spain. At
+                the moment I am
+                working as a Care Agent in a SASS company. I am a geek and a nerd, if something is nerdy I probably like
+                it.</p>
+            <img src="images/profilePicture.webp" alt="profile picture" id="profilePicture" width="200">
+
+            <h2 id="city-title">Mar del Plata, Argentina</h2>
+            <img src="images/flag.webp" alt="Argetina's flag" id="flag" width="200">
+            <p id="city-p">Mar del Plata is a growing city in Buenos Aires, Argentina. The city is a famous turistic
+                poiny for
+                locals and it is also known as La Feliz. The capital of alfajores. </p>
+        </section>
+        <section class="card">
+            <h2 class="card-title">Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://platzi.com/">Platzy</a></li>
+                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                <li><a href="https://www.kaggle.com/">Kaggle</a></li>
+                <li><a href="https://www.w3schools.com/">W3schools</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentYear"></span> Gabriel Figueroa - Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
+
 </html>
