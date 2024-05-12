@@ -1,13 +1,14 @@
 :root {
     --very-light-pink: #f7f7f7;
     --light-green: #acd9b2;
-    --font: 'Quicksand', sans-serif;
+    --font: "Roboto", sans-serif;
 }
 
 body {
     background-color: var(--very-light-pink);
     font-family: var(--font);
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 header,
