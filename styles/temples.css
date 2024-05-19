@@ -40,7 +40,7 @@ nav a:hover {
     font-size: 2rem;
     background: none;
     position: absolute;
-    top: 0, 5rem;
+    top: 0.5rem;
     right: 0.5rem;
     border: none;
 }
