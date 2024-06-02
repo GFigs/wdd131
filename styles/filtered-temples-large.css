@@ -1,0 +1,19 @@
+@media (min-width: 500px) {
+    #menu {
+        display: none;
+    }
+
+    #navigation {
+        flex-direction: row;
+    }
+
+    #navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .temples-display {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
