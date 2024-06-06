@@ -1,0 +1,66 @@
+:root {
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+    --alternative-font: "Dancing Script", cursive;
+    --primary-background: #0072BC;
+    --secondary-background: #77A800;
+    --neutral-background: #ffffff;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--neutral-background);
+}
+
+#reviewForm {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#reviewForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#reviewForm select,
+#reviewForm textarea,
+#reviewForm input[type="submit"] {
+    width: calc(100% - 32px);
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reviewForm textarea {
+    height: 300px;
+}
+
+form#reviewForm input[type="submit"] {
+    width: 50%;
+    background-color: var(--primary-background);
+    color: var(--neutral-background);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form#reviewForm input[type="submit"]:hover {
+    background-color: var(--primary-background);
+}
+
+form#reviewForm .optional {
+    font-family: var(--alternative-font);
+    font-size: 1.2rem;
+    color: #777;
+}
